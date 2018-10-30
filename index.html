@@ -10,11 +10,23 @@
 <body>
   <nav></nav>
 
-  <header></header>
+  <header>
+    <h1> Compost Carbon To Nitrogen Calculator! </h1>
+  </header>
 
   <article>
-    <header></header>
-    <section></section>
+    <header>
+      <h2>All inputs are assuming an X:1 ratio of carbon to nitrogen and
+        output should be a ratio of green to brown material you should use</h2>
+    </header>
+    <section>
+      <ul>
+        <li>Green (High Nitrogen):<input id="green-ratio-input" name='green' type="text" size="10"></li>
+        <li>Brown (High Carbon):<input id="brown-ratio-input" name='brown' type="text" size="10"></li>
+        <li>Desired C:N ratio:<input id="ratio-input" name='ratio' type="text" size="10"></li>
+        </ul>
+      <button id="submit" class="button">Calculate Ratios!</button>
+    </section>
     <footer></footer>
   </article>
 
